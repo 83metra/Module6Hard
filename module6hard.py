@@ -56,8 +56,8 @@ class Circle(Figure):
     __radius = None
     def set_radius(self):
         self.__radius = self.__len__()/(2*3.141569)
-
         return self.__radius
+    
     def get_square(self):
         self.set_radius()
         return (self.__radius ** 2) * 3.141569  # как в школе через радиус
