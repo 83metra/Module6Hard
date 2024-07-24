@@ -29,7 +29,7 @@ class Figure:
             if len(self.sides) == self.sides_count and side > 0 and type(side) == int:
                 return True
             else:
-                False
+                return False
 
     def set_sides(self, *args):
         massive_lst = []
